@@ -4,7 +4,7 @@ function App() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    fetch('/api/user')
+    fetch('https://0.0.11.185/api/user')
     .then((res) => {
       console.log(res); // Log the raw response to check the content
       return res.json();
@@ -28,7 +28,7 @@ function App() {
           <p>Name: {user.firstName} {user.lastName}</p>
         </div>
       ) : (
-        <p>Loading...</p> // Show "Loading..." until the data is fetched
+        <p>Loading...</p> 
       )}
     </div>
   );
