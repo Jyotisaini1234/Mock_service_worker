@@ -4,7 +4,7 @@ function App() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    fetch('https://0.0.11.185/api/user')
+    fetch('https://www.yatra.com/trip')
     .then((res) => {
       console.log(res); // Log the raw response to check the content
       return res.json();
@@ -15,10 +15,7 @@ function App() {
     .catch((error) => {
       console.error('Error fetching data:', error);
     });
-
-
   }, []);
-
   return (
     <div className="App">
       <h1>User Data</h1>

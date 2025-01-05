@@ -1,0 +1,92 @@
+{
+  "trips": [
+    {
+      "id": "trip1",
+      "title": "Goa Beach Paradise",
+      "description": "Enjoy the beautiful beaches of Goa",
+      "duration": "3 days 2 nights",
+      "destination": "Goa",
+      "price": 12999,
+      "inclusions": [
+        "Hotel Stay",
+        "Airport Transfer",
+        "Breakfast",
+        "Sightseeing"
+      ],
+      "startDate": "2025-02-01",
+      "endDate": "2025-02-03",
+      "available": true,
+      "rating": 4.5,
+      "reviews": 128,
+      "image": "/images/goa.jpg"
+    },
+    {
+      "id": "trip2",
+      "title": "Kerala Backwaters Tour",
+      "description": "Experience the serene backwaters of Kerala",
+      "duration": "4 days 3 nights",
+      "destination": "Kerala",
+      "price": 15999,
+      "inclusions": [
+        "Hotel Stay",
+        "Houseboat",
+        "All Meals",
+        "Local Transport"
+      ],
+      "startDate": "2025-02-15",
+      "endDate": "2025-02-18",
+      "available": true,
+      "rating": 4.8,
+      "reviews": 156,
+      "image": "/images/kerala.jpg"
+    },
+    {
+      "id": "trip3",
+      "title": "Manali Adventure Package",
+      "description": "Adventure in the mountains of Manali",
+      "duration": "5 days 4 nights",
+      "destination": "Manali",
+      "price": 18999,
+      "inclusions": [
+        "Hotel Stay",
+        "Breakfast & Dinner",
+        "Adventure Activities",
+        "Local Sightseeing"
+      ],
+      "startDate": "2025-03-01",
+      "endDate": "2025-03-05",
+      "available": true,
+      "rating": 4.6,
+      "reviews": 92,
+      "image": "/images/manali.jpg"
+    }
+  ],
+  "filters": {
+    "destinations": [
+      "Goa",
+      "Kerala",
+      "Manali",
+      "Rajasthan",
+      "Ladakh"
+    ],
+    "durations": [
+      "2-3 days",
+      "4-5 days",
+      "6-7 days",
+      "More than 7 days"
+    ],
+    "priceRanges": [
+      "Under ₹10,000",
+      "₹10,000 - ₹20,000",
+      "₹20,000 - ₹30,000",
+      "Above ₹30,000"
+    ]
+  },
+  "metadata": {
+    "totalResults": 3,
+    "currentPage": 1,
+    "resultsPerPage": 10,
+    "totalPages": 1,
+    "sortBy": "popularity"
+  }
+}
