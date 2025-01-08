@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "es2021",
+    ],
+    "allowJs": true,
+    "module": "esnext",
+    "target": "es2021",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "importHelpers": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "declaration": false,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "removeComments": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./msw-demo",
+    "types": ["node", "isbot", "@remix-run/node"]
+  },
+  "include": [
+    "src",
+    "webpack",
+    "webpack.config.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.js",
+  ],
+}
